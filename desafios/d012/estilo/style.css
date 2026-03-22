@@ -1,0 +1,60 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2rem;
+    padding-left: 30px;
+}
+
+.normal {
+    background-color: aliceblue;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(82, 82, 82);
+    color: aliceblue;
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+}
