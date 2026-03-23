@@ -13,13 +13,13 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: #a9a9a9;
     font-family: var(--fontebase)
 }
 
 header {
     background-color: black;
-    color: aliceblue;
+    color: #f0f8ff;
     text-align: center;
     padding: 30px;
 }
@@ -31,42 +31,62 @@ header > h1 {
 }
 
 header a, footer a {
-    color: aliceblue;
+    color: #f0f8ff;
     text-decoration: none;
     font-weight: bolder;
 
     &:hover {
         text-decoration: underline;
+        color: #e0d03e;
     }
 }
 
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 8vw;
+    line-height: 7vw;
     padding-left: 30px;
     font-family: var(--fonte2);
     font-size: 3vw;
 }
 
+section > p {
+    padding-bottom: 4rem;
+}
+
 .normal {
-    background-color: aliceblue;
+    background-color: #fffff8;
     color: black;
 }
 
 .imagem {
     background-color: rgb(82, 82, 82);
-    color: aliceblue;
+    color: #f0f8ff;
+    box-shadow: inset 6px 6px 13px 0px #0000005d;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
+    padding: 20px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: #00000091;
+    text-shadow: 2px 2px 0px black;
+}
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer {
-    background-color: black;
+    background-color: #000000;
     text-align: center;
-    color: aliceblue;
+    color: #f0f8ff;
     padding: 15px;
 }
